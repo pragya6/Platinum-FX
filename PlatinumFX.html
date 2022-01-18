@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Platinum FX</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=AZ-_obeNXSolX--cJPju-ptMH9wt2nS7vhuiS3iUdv5dCck_1BAtVQxYB8AJN8OCYMmjBPT2GPuacPMI"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <style>
+        .btn{
+            border-radius:  10px 100px / 120px;
+        }
+
+        .btn:hover{
+            background-color: rgb(243, 180, 5);
+        }
+        #bgimg {
+            background-image: url("forexbg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        .nav-link:hover {
+            background: rgb(243, 180, 5);
+            border-radius: 10px 100px / 120px;
+        }
+
+        #mulimg {
+            background-image: url("forexmob.png"), url("blue.jpg");
+            background-repeat: no-repeat, repeat;
+            background-position: right top, left top;
+            padding: 15px;
+            padding-left: 50px;
+            padding-top: 90px;
+            overflow: hidden;
+
+            background-attachment: scroll;
+        }
+    </style>
+
+    <link rel="icon" type="image/x-icon" href="fx.jpg">
+</head>
+
+<body>
+    
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark border border-warning rounded">
+        <div class="container">
+            <a class="nav-link text-light" href="#">Partnership</a>
+            <a class="nav-link text-light" href="#">Help Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupported" aria-controls="navbarSupported" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupported">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Open Account</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark sticky-top border border-top-0
+                    border-warning rounded" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-dolly d-inline-block text-warning" ></i>
+                <span class="text-warning fs-3"> Platinum FX</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#">Features</a>
+                    </li>
+                </ul>
+                <div class="h-auto">
+                    <div style="height: 25px;">
+                    <button type="button" class="btn btn-warning btn-sm" style="margin-left: 18px;">Open Account</button>
+                    </div>
+                    <div class="my-1" style="height: 15px;">
+                    <p class="text-light ">For creating an account</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container bg-dark rounded border border-top-0 border-warning" style="height: 300px;" id="bgimg">
+        <div class="text-center" style="height: 300px;
+                 padding-top: 50px;">
+            <p class="text-light my-0 fw-bolder fs-1">Welcome! To Platinum FX</p>
+            <p class="text-light fw-bold my-0 fs-5">Explore the website and experience</p>
+            <p class="text-light fw-bold fs-5">Forex!</p>
+            <div>
+                <button type="button"
+                    class="btn btn-outline-warning text-light btn-lg fw-bold my-2 mx-2">Open a Live
+                    Account</button>
+                <button type="button" class="btn btn-outline-warning text-light btn-lg fw-bold mx-2">Open a
+                    MT5
+                    Account</button>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-dark rounded text-left border border-top-0 border-warning" id="mulimg"
+        style="height: 600px;">
+        <p class="fs-1 fw-bolder text-warning my-5">New To Forex?</p>
+        <p class="fs-4 fw-bold text-light">You're in good hands! Join our</p>
+        <p class="fs-4 fw-bold text-light">expanding client base and many other</p>
+        <p class="fs-4 fw-bold text-light">traders that make up the global financial</p>
+        <p class="fs-4 fw-bold text-light">market.</p>
+        <p><a type="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JNDAJM3HPGFMA" class="btn btn-outline-warning">Purchase</a></p>
+
+    </div>
+
+</body>
+
+</html>
